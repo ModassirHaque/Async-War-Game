@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(table.png);
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+button{
+    background-color: #fff100;
+    cursor: pointer;
+    border: none;
+}
+#double-deck{
+    font-size: 2rem;
+    padding: 10px;
+    align-self: stretch;
+}
+#new-deck{
+    align-self: flex-start;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+
+}
+div .card-slot{
+    border: 2px solid black;
+    height: 360px;
+    width:  240px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+div.card-slot:nth-child(1){
+    margin-bottom: 100px;
+}
+#img1 img{
+    height: 360px;
+    width: 240px;
+}
+#img2 img{
+    height: 360px;
+    width: 240px;
+}
+#result{
+    color: white;
+    font-size: 25px;
+}
+button:disabled{
+    cursor: not-allowed;
+    background-color: brown;
+}
+h2{
+    font-size: 20px;
+}
